@@ -1,19 +1,9 @@
-# Project Name
+# Drowsiness Detection System
 
-A brief description of what your project does, the problem it solves, and the value it provides.
+This project implements a real-time drowsiness detection system using [MediaPipe](https://developers.google.com/mediapipe). By analyzing facial landmarks, the system monitors eye aspect ratios and blink patterns to alert users when signs of fatigue or drowsiness are detected.
 
 ## 🚀 Features
 
-* **Next.js:** Built with the latest App Router architecture.
-* **Performance:** Optimized using `next/font` with [Geist](https://vercel.com/font).
-* **Deployment:** Ready for deployment on the Vercel platform.
-
-## 🛠️ Getting Started
-
-First, clone the repository and install the dependencies:
-
-```bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
-cd your-repo-name
-
-npm install
+* **Real-time Analysis:** Processes video streams to track eye state with high precision.
+* **MediaPipe Integration:** Utilizes robust facial landmark detection for reliable performance.
+* **Safety Alerting:** Triggers notifications when the system detects prolonged eye closure.
